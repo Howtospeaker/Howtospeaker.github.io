@@ -128,8 +128,10 @@
 			
 			
 			<div>
-				<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=250 height=52 src="//music.163.com/outchain/player?type=2&id=496766064&auto=0&height=32"></iframe>
-				<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=250 height=52 src="//music.163.com/outchain/player?type=2&id=35270645&auto=1&height=32"></iframe>
+				<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=235 height=52 src="//music.163.com/outchain/player?type=2&id=496766064&auto=0&height=32"></iframe>
+				<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=235 height=52 src="//music.163.com/outchain/player?type=2&id=35270645&auto=0&height=32"></iframe>
+				<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=235 height=52 src="//music.163.com/outchain/player?type=2&id=1345803132&auto=0&height=32"></iframe>
+				<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=235 height=52 src="//music.163.com/outchain/player?type=2&id=523042017&auto=0&height=32"></iframe>
 			</div>
 			
 				
@@ -145,7 +147,7 @@
       
       
       <a class="forkMe" style="position:absolute;z-index:999;top:0;right:0.5em;" 
-        href="https://github.com/JoeyBling/hexo-theme-yilia-plus" target="_blank">
+        href="https://github.com/Howtospeaker/Howtospeaker.github.io/" target="_blank">
         <img src="/img/forkme.png"
           class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
       
@@ -452,35 +454,36 @@
 
 
 
+<div class="valine_comment"></div>
+<!--载入js，在</body>之前插入即可-->
+<!--Leancloud 操作库:-->
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<!--Valine 的核心代码库-->
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+<script>
+  var notify = 'false' == true ? true : false;
+  var verify = 'false' == true ? true : false;
+  new Valine({
+      // AV 对象来自上面引入av-min.js(老司机们不要开车➳♡゛扎心了老铁)
+      av: AV,
+      el: '.valine_comment',
+      emoticon_url: 'https://cloud.panjunwen.com/alu',
+      emoticon_list: ["狂汗.png","不说话.png","汗.png","坐等.png","献花.png","不高兴.png","中刀.png","害羞.png","皱眉.png","小眼睛.png","暗地观察.png"],
+      app_id: 'fJ4GCwEEYcOuxu34xb0XdDSe-gzGzoHsz',
+      app_key: 'dD45VNz7TGk4V8ilyvEl5mDF',
+      placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!'
+    });
+</script>
 
 
 
 
 
 
-  
-  <div id="gitment-ctn"></div>
-  
-    <!-- 中文 -->
-    <link rel="stylesheet" href="/lib/gitment.css">
-    <script src="/lib/gitment.js"></script>
-  
-  <script>
-    <!-- id: "启" -->
-    var gitment = new Gitment({
-      id: "20200328002938",
-      owner: 'Howtospeak',
-      repo: 'blog',
-      oauth: {
-        client_id: '54ace27416dfc49f95be',
-        client_secret: '52b369c4694a19a341a13f8bd7c7f9d1b2a8d792',
-      },
-    })
-    gitment.render('gitment-ctn')
-  </script>
 
 
-  
+
+
 
 
 
@@ -832,9 +835,9 @@
     },
     display: {
        position: "right", 
-       width: 250, 
-       height: 520, 
-       hOffset: 50, 
+       width: 200, 
+       height: 414, 
+       hOffset: 30, 
       
     },
     mobile: {
